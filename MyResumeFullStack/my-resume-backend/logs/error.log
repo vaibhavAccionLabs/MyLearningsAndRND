@@ -1,0 +1,148 @@
+{ error:
+   { MongooseError: The `uri` parameter to `openUri()` must be a string, got "undefined". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string.
+       at new MongooseError (C:\Users\AL2342\Desktop\vue-resume\my-resume-backend\node_modules\mongoose\lib\error\mongooseError.js:10:11)
+       at NativeConnection.Connection.openUri (C:\Users\AL2342\Desktop\vue-resume\my-resume-backend\node_modules\mongoose\lib\connection.js:579:11)
+       at Mongoose.connect (C:\Users\AL2342\Desktop\vue-resume\my-resume-backend\node_modules\mongoose\lib\index.js:333:15)
+       at Object.<anonymous> (C:\Users\AL2342\Desktop\vue-resume\my-resume-backend\config\db.js:7:10)
+       at Module._compile (internal/modules/cjs/loader.js:689:30)
+       at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)
+       at Module.load (internal/modules/cjs/loader.js:599:32)
+       at tryModuleLoad (internal/modules/cjs/loader.js:538:12)
+       at Function.Module._load (internal/modules/cjs/loader.js:530:3)
+       at Module.require (internal/modules/cjs/loader.js:637:17)
+       at require (internal/modules/cjs/helpers.js:22:18)
+       at Object.<anonymous> (C:\Users\AL2342\Desktop\vue-resume\my-resume-backend\app.js:19:1)
+       at Module._compile (internal/modules/cjs/loader.js:689:30)
+       at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)
+       at Module.load (internal/modules/cjs/loader.js:599:32)
+       at tryModuleLoad (internal/modules/cjs/loader.js:538:12)
+     message:
+      'The `uri` parameter to `openUri()` must be a string, got "undefined". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string.',
+     name: 'MongooseError' },
+  level: 'error',
+  message:
+   'uncaughtException: The `uri` parameter to `openUri()` must be a string, got "undefined". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string.\nMongooseError: The `uri` parameter to `openUri()` must be a string, got "undefined". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string.\n    at new MongooseError (C:\\Users\\AL2342\\Desktop\\vue-resume\\my-resume-backend\\node_modules\\mongoose\\lib\\error\\mongooseError.js:10:11)\n    at NativeConnection.Connection.openUri (C:\\Users\\AL2342\\Desktop\\vue-resume\\my-resume-backend\\node_modules\\mongoose\\lib\\connection.js:579:11)\n    at Mongoose.connect (C:\\Users\\AL2342\\Desktop\\vue-resume\\my-resume-backend\\node_modules\\mongoose\\lib\\index.js:333:15)\n    at Object.<anonymous> (C:\\Users\\AL2342\\Desktop\\vue-resume\\my-resume-backend\\config\\db.js:7:10)\n    at Module._compile (internal/modules/cjs/loader.js:689:30)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)\n    at Module.load (internal/modules/cjs/loader.js:599:32)\n    at tryModuleLoad (internal/modules/cjs/loader.js:538:12)\n    at Function.Module._load (internal/modules/cjs/loader.js:530:3)\n    at Module.require (internal/modules/cjs/loader.js:637:17)\n    at require (internal/modules/cjs/helpers.js:22:18)\n    at Object.<anonymous> (C:\\Users\\AL2342\\Desktop\\vue-resume\\my-resume-backend\\app.js:19:1)\n    at Module._compile (internal/modules/cjs/loader.js:689:30)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)\n    at Module.load (internal/modules/cjs/loader.js:599:32)\n    at tryModuleLoad (internal/modules/cjs/loader.js:538:12)',
+  stack:
+   'MongooseError: The `uri` parameter to `openUri()` must be a string, got "undefined". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string.\n    at new MongooseError (C:\\Users\\AL2342\\Desktop\\vue-resume\\my-resume-backend\\node_modules\\mongoose\\lib\\error\\mongooseError.js:10:11)\n    at NativeConnection.Connection.openUri (C:\\Users\\AL2342\\Desktop\\vue-resume\\my-resume-backend\\node_modules\\mongoose\\lib\\connection.js:579:11)\n    at Mongoose.connect (C:\\Users\\AL2342\\Desktop\\vue-resume\\my-resume-backend\\node_modules\\mongoose\\lib\\index.js:333:15)\n    at Object.<anonymous> (C:\\Users\\AL2342\\Desktop\\vue-resume\\my-resume-backend\\config\\db.js:7:10)\n    at Module._compile (internal/modules/cjs/loader.js:689:30)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)\n    at Module.load (internal/modules/cjs/loader.js:599:32)\n    at tryModuleLoad (internal/modules/cjs/loader.js:538:12)\n    at Function.Module._load (internal/modules/cjs/loader.js:530:3)\n    at Module.require (internal/modules/cjs/loader.js:637:17)\n    at require (internal/modules/cjs/helpers.js:22:18)\n    at Object.<anonymous> (C:\\Users\\AL2342\\Desktop\\vue-resume\\my-resume-backend\\app.js:19:1)\n    at Module._compile (internal/modules/cjs/loader.js:689:30)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)\n    at Module.load (internal/modules/cjs/loader.js:599:32)\n    at tryModuleLoad (internal/modules/cjs/loader.js:538:12)',
+  exception: true,
+  date: 'Wed Apr 08 2020 22:14:30 GMT+0800 (China Standard Time)',
+  process:
+   { pid: 15640,
+     uid: null,
+     gid: null,
+     cwd: 'C:\\Users\\AL2342\\Desktop\\vue-resume\\my-resume-backend',
+     execPath: 'C:\\Program Files\\nodejs\\node.exe',
+     version: 'v10.14.2',
+     argv:
+      [ 'C:\\Program Files\\nodejs\\node.exe',
+        'C:\\Users\\AL2342\\Desktop\\vue-resume\\my-resume-backend\\server.js' ],
+     memoryUsage:
+      { rss: 70275072,
+        heapTotal: 61505536,
+        heapUsed: 28228800,
+        external: 18660845 } },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 292269 },
+  trace:
+   [ { column: 11,
+       file:
+        'C:\\Users\\AL2342\\Desktop\\vue-resume\\my-resume-backend\\node_modules\\mongoose\\lib\\error\\mongooseError.js',
+       function: 'new MongooseError',
+       line: 10,
+       method: null,
+       native: false },
+     { column: 11,
+       file:
+        'C:\\Users\\AL2342\\Desktop\\vue-resume\\my-resume-backend\\node_modules\\mongoose\\lib\\connection.js',
+       function: 'NativeConnection.Connection.openUri',
+       line: 579,
+       method: 'openUri',
+       native: false },
+     { column: 15,
+       file:
+        'C:\\Users\\AL2342\\Desktop\\vue-resume\\my-resume-backend\\node_modules\\mongoose\\lib\\index.js',
+       function: 'Mongoose.connect',
+       line: 333,
+       method: 'connect',
+       native: false },
+     { column: 10,
+       file:
+        'C:\\Users\\AL2342\\Desktop\\vue-resume\\my-resume-backend\\config\\db.js',
+       function: null,
+       line: 7,
+       method: null,
+       native: false },
+     { column: 30,
+       file: 'internal/modules/cjs/loader.js',
+       function: 'Module._compile',
+       line: 689,
+       method: '_compile',
+       native: false },
+     { column: 10,
+       file: 'internal/modules/cjs/loader.js',
+       function: 'Module._extensions..js',
+       line: 700,
+       method: '.js',
+       native: false },
+     { column: 32,
+       file: 'internal/modules/cjs/loader.js',
+       function: 'Module.load',
+       line: 599,
+       method: 'load',
+       native: false },
+     { column: 12,
+       file: 'internal/modules/cjs/loader.js',
+       function: 'tryModuleLoad',
+       line: 538,
+       method: null,
+       native: false },
+     { column: 3,
+       file: 'internal/modules/cjs/loader.js',
+       function: 'Module._load',
+       line: 530,
+       method: '_load',
+       native: false },
+     { column: 17,
+       file: 'internal/modules/cjs/loader.js',
+       function: 'Module.require',
+       line: 637,
+       method: 'require',
+       native: false },
+     { column: 18,
+       file: 'internal/modules/cjs/helpers.js',
+       function: 'require',
+       line: 22,
+       method: null,
+       native: false },
+     { column: 1,
+       file:
+        'C:\\Users\\AL2342\\Desktop\\vue-resume\\my-resume-backend\\app.js',
+       function: null,
+       line: 19,
+       method: null,
+       native: false },
+     { column: 30,
+       file: 'internal/modules/cjs/loader.js',
+       function: 'Module._compile',
+       line: 689,
+       method: '_compile',
+       native: false },
+     { column: 10,
+       file: 'internal/modules/cjs/loader.js',
+       function: 'Module._extensions..js',
+       line: 700,
+       method: '.js',
+       native: false },
+     { column: 32,
+       file: 'internal/modules/cjs/loader.js',
+       function: 'Module.load',
+       line: 599,
+       method: 'load',
+       native: false },
+     { column: 12,
+       file: 'internal/modules/cjs/loader.js',
+       function: 'tryModuleLoad',
+       line: 538,
+       method: null,
+       native: false } ],
+  service: 'user-service',
+  timestamp: '2020-04-08T14:14:30.269Z' }

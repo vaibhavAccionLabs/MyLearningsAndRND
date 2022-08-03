@@ -1,0 +1,109 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.ant-layout-header {
+  height: 70px;
+  padding: 20px 40px;
+  line-height: 64px;
+  background: rgb(29, 161, 242);
+  display: flex;
+  justify-content: space-between;
+}
+.ant-input-search {
+  width: 95%;
+}
+.ant-badge > i {
+  color: rgb(255, 255, 255);
+  font-size: 25px;
+}
+.ant-layout-content {
+  padding: 50px;
+}
+.ant-layout-footer {
+  text-align: center;
+  border-top: 1px solid rgb(0, 0, 0);
+}
+.ant-table-tbody > tr {
+  background-color: #ffffff;
+  cursor: pointer;
+}
+.heading {
+  color: #ffffff;
+  line-height: 30px;
+  padding: 0;
+  margin: 0;
+}
+.loading {
+  text-align: center;
+}
+.ant-spin-spinning {
+  padding-right: 20px;
+}
+
+.error {
+  color: rgb(255, 0, 0);
+  text-align: center;
+  display: block;
+}
+
+.ant-spin {
+  /* display: block; */
+  width: 100%;
+}
+
+.more-info {
+  padding: 10px;
+  text-align: center;
+  color: rgb(171, 171, 171);
+  font-weight: 500;
+}
+
+/*=========TWITTER CARD =====*/
+
+.twitter-card {
+  padding: 20px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 20px;
+  margin: 20px;
+}
+.tweet {
+  padding: 10px;
+  margin: 10px;
+}
+.tweet-media > img {
+  height: 300px;
+  width: 500px;
+  border-radius: 20px;
+  display: block;
+  margin: 0 auto;
+}
+.twitter-header {
+  display: flex;
+}
+.user-data > span {
+  margin-right: 10px;
+  padding: 5px;
+}
+.user-data > .user-name {
+  color: #000;
+  font-weight: 500;
+}
+.user-data > .screen-name {
+  color: rgb(171, 171, 171);
+}
+.tweet-hash-tags > .hash-tag {
+  color: rgb(29, 161, 242);
+  font-weight: 500;
+  padding: 5px;
+}

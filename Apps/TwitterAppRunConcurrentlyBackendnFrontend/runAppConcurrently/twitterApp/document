@@ -1,0 +1,16 @@
+Your system must have mongodb, latest
+node and npm installed.
+
+
+steps--
+In root folder run the following commands
+
+Put twitter credentials on .env file
+
+npm run dependency
+npm run dev
+
+
+your App Will run
+
+

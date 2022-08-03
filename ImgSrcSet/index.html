@@ -1,0 +1,179 @@
+<!-- https://res.cloudinary.com/vaibhavaccionlabs/image/upload/c_fill,g_auto,h_250,w_1200/v1621851635/gps/Car_8.42mb_bjfewm.jpg-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Favorite Animals</title>
+       
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+    <!-- CSS -->
+    <style type="text/css">
+    .my-view-port{
+        border: 1px solid #000;
+        padding: 10px;
+    }
+    .my-image-view{
+        width:200px;
+        height:250px;
+        background-color: #d1cfcf;
+    }
+    img{
+			max-width: 50%;
+			height: auto;
+		}
+	</style>
+</head>
+<body>
+	<div class='my-view-port'>
+        <h2>Responsive Image Switching & Image modification using cloudinary CDN</h2>
+            <h4>Cloudinary Description:</h4>
+            <p>Cloudinary automatically optimize and deliver images and videos for
+                high performance, high quality media assets delivered to any end user device 
+            </p>  
+
+            <h4>Sample URI</h4>
+            <p>https://res.cloudinary.com/vaibhavaccionlabs/image/upload/c_thumb,h_320,q_71,r_10,w_400/a_12/v1621095316/gps/1241056628_preview_Wellpapers_qponoe.jpg
+            </p>
+            <p>Note: For more info refer cloudinary docs. <a href='https://cloudinary.com/documentation/transformation_reference' target='_blank'>Click here</a></p>
+            <table class="striped centered">
+        <thead>
+          <tr>
+              <th>Property</th>
+              <th>Parameter</th>
+              <th>Sample</th>
+          </tr>
+        </thead>
+
+        <tbody>
+          <tr>
+            <td>Height</td>
+            <td>h_number_px</td>
+            <td>h_300</td>
+          </tr>
+          <tr>
+            <td>Width</td>
+            <td>w_number_px</td>
+            <td>w_400</td>
+          </tr>
+          <tr>
+            <td>Scale</td>
+            <td>c_scale, c_auto etc.
+            </td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Quality</td>
+            <td>q_number_%, q_auto etc.
+            </td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Corner Radius</td>
+            <td>r_number
+            </td>
+            <td>r_20</td>
+          </tr>
+          <tr>
+            <td>Effects</td>
+            <td>e_brigntness:_number
+            </td>
+            <td>e_brigntness:20</td>
+          </tr>
+          <tr>
+            <td>Effects</td>
+            <td>e_sharpen:_number
+            </td>
+            <td>e_sharpen:20</td>
+          </tr>
+          <tr>
+            <td>Border</td>
+            <td>bo_number_px_border_type_rgba:color
+            </td>
+            <td>bo_11px_solid_rgba:fa2525</td>
+          </tr>
+          <tr>
+            <td>Fetch Format</td>
+            <td>f_gif,f_jpg etc
+            </td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Gravity</td>
+            <td>g_number, g_auto
+            </td>
+            <td>g_10</td>
+          </tr>
+          <tr>
+            <td>DPR (Modify the image scaling using the given Device Pixel Ratio.)</td>
+            <td>dpr_auto
+            </td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Rotation angle</td>
+            <td>a_number
+            </td>
+            <td>a_12</td>
+          </tr>
+        </tbody>
+      </table>
+
+
+        <div className='my-image-view'>
+            <img src="https://res.cloudinary.com/vaibhavaccionlabs/image/upload/c_fit,e_sharpen:100,h_350,q_60,r_10,w_300,z_1/v1621851635/gps/Car_8.42mb_bjfewm.jpg" 
+			 alt="blue eyed cat" 
+			 width="200" height="200"
+			 srcset="
+			 https://res.cloudinary.com/vaibhavaccionlabs/image/upload/c_fit,e_sharpen:100,h_350,q_60,r_10,w_300,z_1/v1621851635/gps/Car_8.42mb_bjfewm.jpg 480w,
+			 https://res.cloudinary.com/vaibhavaccionlabs/image/upload/c_fit,e_sharpen:100,h_350,q_60,r_10,w_300,z_1/v1621851635/gps/Car_8.42mb_bjfewm.jpg 960w,
+			 https://res.cloudinary.com/vaibhavaccionlabs/image/upload/c_fit,e_sharpen:100,h_350,q_80,r_10,w_300,z_1/v1621851635/gps/Car_8.42mb_bjfewm.jpg 1440w,
+			 https://res.cloudinary.com/vaibhavaccionlabs/image/upload/c_fit,e_sharpen:100,h_350,q_100,r_10,w_300,z_1/v1621851635/gps/Car_8.42mb_bjfewm.jpg 1920w"
+			 sizes="(max-width: 480px) 240px,
+			 		(max-width: 960px) 480px,
+					(max-width: 1440px) 960px,
+					1920px" 
+        >
+        </div>
+   
+
+ <div className='my-image-view'>
+            <img src="https://res.cloudinary.com/vaibhavaccionlabs/image/upload/c_fit,e_sharpen:100,h_350,q_60,r_10,w_300,z_1/v1621851635/gps/aurora_sky_landscape_a9z1tz.jpg" 
+			 alt="blue eyed cat" 
+			 width="200" height="200"
+			 srcset="
+			 https://res.cloudinary.com/vaibhavaccionlabs/image/upload/c_fit,e_sharpen:100,h_350,q_60,r_10,w_300,z_1/v1621851635/gps/aurora_sky_landscape_a9z1tz.jpg 480w,
+			 https://res.cloudinary.com/vaibhavaccionlabs/image/upload/c_fit,e_sharpen:100,h_350,q_60,r_10,w_300,z_1/v1621851635/gps/aurora_sky_landscape_a9z1tz.jpg 960w,
+			 https://res.cloudinary.com/vaibhavaccionlabs/image/upload/c_fit,e_sharpen:100,h_350,q_80,r_10,w_300,z_1/v1621851635/gps/aurora_sky_landscape_a9z1tz.jpg 1440w,
+			 https://res.cloudinary.com/vaibhavaccionlabs/image/upload/c_fit,e_sharpen:100,h_350,q_100,r_10,w_300,z_1/v1621851635/gps/aurora_sky_landscape_a9z1tz.jpg 1920w"
+			 sizes="(max-width: 480px) 240px,
+			 		(max-width: 960px) 480px,
+					(max-width: 1440px) 960px,
+					1920px" 
+        >
+        </div>
+   
+
+
+
+        
+
+
+
+
+
+
+        
+		
+         </div>
+
+         
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    
+</body>
+</html>

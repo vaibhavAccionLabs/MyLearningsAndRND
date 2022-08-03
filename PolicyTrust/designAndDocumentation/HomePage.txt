@@ -1,0 +1,42 @@
+
+Health Button 
+     |
+     steps
+      1. Sex (Tell us about yourself, you are a...) 
+      2. Who would you like to get insured?
+       options:
+          self
+          wife
+          mother
+          father
+          son
+          daughter
+      3. What is their age?
+      4. Does any of the members have any disease?
+        Declaring this will help us find the best policy and avoid claim 
+        rejections. Don’t worry, your information will be kept 
+        confidential.
+        if yes
+      5. Does any of the members have any disease?
+         This information will help us get you a Health Insurance Policy 
+         with optimum Benefits for the stated illness/es.
+         types:
+          diabetes
+          bp
+          heart diseases
+          other conditions
+       6. What is your pincode?
+          Health insurance premium might differ based on your location of residence.  
+       7. Your preferred hospitals?
+          We will look for plans that have your preferred hospitals in 
+          their cashless network.    
+       8. What is your income bracket?
+          We will use this information to calculate your tax savings
+          under section 80D.  
+       9. Save your quotes now
+          Saved quotes will be sent to you by email and sms.   
+          Name
+          Mobile
+          Email 
+         
+
